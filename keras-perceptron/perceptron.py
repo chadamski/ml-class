@@ -5,7 +5,7 @@ from keras.layers import Dense, Flatten
 import wandb
 from wandb.keras import WandbCallback
 
-# logging code !
+# logging code
 run = wandb.init()
 config = run.config
 
